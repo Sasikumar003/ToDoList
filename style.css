@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 14px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e6f7ff;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+.complete-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.edit-btn {
+    background-color: #ff9800;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
